@@ -13,9 +13,7 @@
 	--bg: #f5f5f5;       /* Background color */
 	--sbg: #e4e6e6;      /* Cards color */
 	--fg: #3a3a3a;       /* Foreground color */
-
-	--indigo: #6366f1;
-
+	--indigo: rgba(79, 70, 229, 1.0);
 	/* Image background  */
 
 	/* Uncoment this section to get the 
@@ -42,6 +40,7 @@
 	--sbg: #2c2d31;      /* Cards color */
 	--fg: #d8dee9;       /* Foreground color */
 	--imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));    /* Filter color */
+	--indigo: rgba(165, 180, 252, 1.0);
 }
 
 * {
@@ -161,7 +160,7 @@ body {
 
 .greetings__name {
 	font-size: var(--fss);
-	color: var(--indigo)
+	color: var(--indigo);
 }
 
 @media only screen and (max-width: 68.75em) {
